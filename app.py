@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env file
 
-openai.api_key = os.getenv("sk-...N6vc")  # Set OpenAI API key
+openai.api_key = os.getenv("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")  # Set OpenAI API key
 
 # Set the model ID and prompt for the Spongebob Squarepants dialogue
 model_id = "text-davinci-002"
